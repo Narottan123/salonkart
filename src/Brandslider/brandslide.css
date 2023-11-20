@@ -1,0 +1,63 @@
+
+  .productslide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (max-width: 1024px) {
+    .productslide img {
+      /* You might want to adjust sizes or padding for medium-sized devices */
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (max-width: 768px) {
+    .productslide img {
+      /* Adjustments for small devices */
+    }
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media (max-width: 600px) {
+    .productslide img {
+      /* Adjustments for extra small devices */
+    }
+  }
+  
+  /* Extra extra small devices (small phones, 480px and down) */
+  @media (max-width: 480px) {
+    .productslide {
+      /* You might want to reduce the size of the slides even further */
+    }
+    .productslide img {
+      /* Make sure images are still fully visible on small screens */
+    }
+  }
+  
+@media screen and (max-width:600px) {
+    .productslide img {
+        max-width: 100%; /* Adjust the maximum width as per your design */
+        padding: 15px;
+        height: 300px;
+      }
+}
+  
+
+.slick-slide div {
+  outline: none;
+}
+.productslide {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100%; /* Take the full height of the slider */
+}
+
+.productslide img {
+  max-width: 100%; /* Ensure image doesn’t overflow */
+  max-height: 100%; /* Ensure image doesn’t overflow */
+}
+
+
+/* This is the default style, it applies to screens larger than 1024px */

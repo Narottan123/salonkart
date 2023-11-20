@@ -1,0 +1,63 @@
+.brandbanner{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 17px;
+    gap: 10px;
+    
+}
+.sellingbrandslider{
+    /* padding: 15px; */
+}
+
+
+/* Styles for .brandbanner on larger screens */
+@media (min-width: 768px) { /* Adjust 768px to whatever minimum width you consider "larger" */
+    .brandbanner {
+        /* Add your adjustments here. For example: */
+        /* padding-left: 60px;
+        padding-right: 30px; */
+        gap: 60px;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .brandbanner{
+        display: block;
+     padding: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .argatin2img{
+        margin-top: 13px;
+    }
+}
+
+
+
+.reasonTolove{
+    margin-top: 50px;
+}
+.discriptionText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skinconyc{
+    font-size: 17px;
+    color: #323232;
+    align-items: center;
+}
+.applink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NowAvailable{
+    margin-top: 20px;
+}

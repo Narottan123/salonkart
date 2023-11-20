@@ -1,0 +1,255 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: 6px;
+  width: 100%
+  
+}
+
+@media screen and (max-width:600px) {
+  .mobileview{
+    display:none;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 6px;
+    width: 100%;
+    background-color: rebeccapurple;
+    
+  }
+}
+.mobileview{
+  background-color: rebeccapurple;
+}
+
+
+.logo {
+  width: auto;
+}
+
+
+.search-container {
+  width: 100%;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+
+.search-input {
+  
+  padding: 2px;
+  border-radius: 50px;
+  height: 40px;
+}
+
+
+.search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+
+.menu-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+ 
+}
+
+
+.skinco-logo {
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+.argatin-logo {
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+}
+
+
+.user-icon {
+  width: auto;
+  height: auto;
+  
+  
+}
+.user-cart-container{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.kart-icon {
+  
+  width: auto;
+  height: auto;
+  
+  
+  
+}
+
+
+
+
+
+.mobile-menu {
+  display: block;
+  
+}
+
+
+.menu-item {
+  display: flex;
+  margin: 1px;
+}
+
+
+.arrow-icon {
+  margin-left: 240px;
+  margin-top: 8px;
+  
+}
+
+
+.submenu {
+  margin-left: 30px;
+  
+}
+
+
+.desktop-menu {
+  display: block;
+  margin-top: 20px;
+  
+}
+
+
+.menu-button {
+  margin: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #000;
+  padding: 4px 10px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+
+
+
+
+/* For Mobile Devices (320px to 480px) */
+@media screen and (max-width: 480px) {
+  /* Your CSS rules for mobile devices go here */
+  .desktop-menu{
+    display: none;
+  }
+  .logo{
+    width: 20%;
+  }
+  .menu-icon {
+    display: block; 
+    width: 70%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    
+ }
+  .user-icon{
+    display: none;
+  }
+  .kart-icon{
+    display: block;
+    margin-left: 20px;
+    width: 100%;
+    height: 80%;
+    padding-top: 1rem;
+  }
+  .search-container{
+      padding-left: 2rem;
+      
+  }
+  .search-input{
+     width: 100%;
+  }
+  .skinco-logo{
+    display: none;
+  }
+  .argatin-logo{
+    display: none;
+  }
+  .search-icon{
+    top: 0.5rem;
+    right: 1rem;
+  }
+}
+
+/* iPads and Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Your CSS rules for iPads and tablets go here */
+  .desktop-menu{
+    display: none;
+  }
+  .logo{
+    width: 20%;
+  }
+  .menu-icon {
+    display: block; 
+    width: 50%;
+    
+ }
+  .user-icon{
+    display: none;
+  }
+  .kart-icon{
+    display: block;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .search-container{
+      width: 100%;
+  }
+  .search-input{
+     width: 60%;
+  }
+  .skinco-logo{
+    display: none;
+  }
+  .argatin-logo{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .search-container {
+    width: 50%; /* At or above 1200px, set the width to 50% */
+  }
+  
+  /* You can add more styles for the input element within the search container */
+  .search-container input[type="search"] {
+    padding: 12px;
+    border-radius: 30px;
+  }
+}

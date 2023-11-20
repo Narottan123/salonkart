@@ -1,0 +1,49 @@
+.buttonstyle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width:'100%';
+    background-color: black;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 25px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textinputStyle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    border-radius: 20px solid black;
+    border-width: 1px;
+}
+.ReactModalPortal > div{
+    background-color: rgb(255, 255, 255,0.3) !important;
+}
+.salonkart{
+    font-weight:900;
+    font-size: 20px;
+    color: black;
+}
+.salonkartcontianer{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.totalprice{
+    font-weight: 900;
+    font-size: 20px;
+    color:gray
+}
+.freeshipping{
+    font-size: 18px;
+    color:white;
+    background-color: black;
+    padding: 13px;
+    border-width: 1px;
+    border-radius: 20px;
+}

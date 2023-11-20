@@ -1,0 +1,23 @@
+.mainHeadingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headingText{
+    font-size: 36px;
+    color: #323232;
+    line-height: 30px;
+    /* font-weight: 400; */
+    /* text-align: center; */
+
+}
+@media screen and (max-width:600px) {
+    .headingText{
+        font-size: 19px;
+        color: #323232;
+        line-height: 30px;
+        font-weight: 900;
+        /* text-align: center; */
+    
+    }
+}

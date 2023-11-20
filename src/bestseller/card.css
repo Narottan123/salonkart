@@ -1,0 +1,14 @@
+.add_to_cart_btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add_to_cart_btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border: 1px solid black;
+    transition: 0.3s ease-out;
+}

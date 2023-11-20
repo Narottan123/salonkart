@@ -1,0 +1,31 @@
+.myprofile {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.orderNumber {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+
+.profileContainer {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    background-color: gainsboro;
+    display: flex;
+
+}
+
+@media screen and (max-width:600px) {
+    .profileContainer {
+        display: flex;
+      margin-top: 20px;
+        background-color: gainsboro;
+        display: flex;
+
+    }
+}

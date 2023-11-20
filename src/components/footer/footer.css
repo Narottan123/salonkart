@@ -1,0 +1,41 @@
+.mainContainer{
+    background-color: black;
+    padding-top: 32px;
+    padding-bottom:32px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.aboutuslistContainer li{
+    color: white;
+    /* display: flex; */
+    
+}
+.aboutuslistContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.addresstext{
+    color: white;
+}
+.addressmainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.socialmediaIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.phonenoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}

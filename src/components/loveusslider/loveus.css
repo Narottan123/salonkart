@@ -1,0 +1,15 @@
+.productslide img {
+    max-width: 100%; /* Adjust the maximum width as per your design */
+    height: auto; /* Maintain aspect ratio */
+  }
+@media screen and (max-width:600px) {
+    .productslide img {
+        max-width: 100%; /* Adjust the maximum width as per your design */
+        height: 150px; /* Maintain aspect ratio */
+      }
+}
+  
+
+.slick-slide div {
+  outline: none;
+}
